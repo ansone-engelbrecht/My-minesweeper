@@ -1,0 +1,66 @@
+body {
+  background-color: #FFD1D1;
+  margin: 0;
+  padding: 0;
+}
+
+/*Styled each square below.*/
+.square {
+    width: 50px;
+    height: 50px;
+    padding: 0%;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+/*When you click on the squares the background color will change*/
+.square:active{
+  background-color: #AF0171;
+}
+
+/*Styled the board to make it more center*/
+.board {
+  background-color: #FFD1D1;
+  display: flex;
+  justify-content: center;
+}
+
+/*Styled the heading with round border and changed the color a bit*/
+.heading {
+  color: #AF0171;
+  background-color: #FFD1D1;
+  padding: 0%;
+  margin: 0%;
+  margin-bottom: 1%;
+  text-align: center;
+  font-size: xxx-large;
+}
+
+/*Styled the start buttom the same color as the rest of the game. Changed the font siz, color of the text and made the border round.*/
+.startGame {
+  font-size: x-large;
+  color: #AF0171;
+  background-color: #FFD1D1;
+  border-radius: 1rem;
+  display: grid;
+  align-items: center;
+}
+
+/*There will be a hover effect when going over with your mouse. The color of the text and the background color will change*/
+.startGame:hover {
+  color: #4C0033 ;
+  background-color: #FFD6EC;
+}
+
+/*Styled the footer so that the text is a bit bigger and the background color is white.*/
+.footer {
+  color: black;
+  background-color: white;
+  font-size: large;
+  display: inline-table;
+  justify-content: center;
+}
